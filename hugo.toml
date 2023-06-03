@@ -54,3 +54,4 @@ url = "https://www.linkedin.com/in/robert-sturla/"
 [params]
   goToTop = true
   mainSections = ['blog']
+  description = "Robert Sturla's personal website and blog"
