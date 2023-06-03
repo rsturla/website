@@ -1,0 +1,56 @@
+baseURL = 'https://sturla.uk/'
+title = 'Robert Sturla'
+languageCode = 'en-gb'
+defaultContentLanguage = "en-gb"
+theme = "rsturla"
+enableRobotsTXT = true
+
+[params.author]
+  name = "Robert Sturla"
+  avatar = "img/work-gopher.png"
+  description = "A DevOps Engineer specialising in Cloud and CyberSecurity."
+
+
+######################
+# Menu Configuration #
+######################
+[menu]
+  [[menu.main]]
+    pageRef="/"
+    name="Home"
+    url="/"
+    weight=10
+  [[menu.main]]
+    pageRef="/about"
+    name="About"
+    url="/about"
+    weight=20
+  [[menu.main]]
+    pageRef="/blog"
+    name="Blog"
+    url="/blog"
+    weight=30
+
+
+######################
+# Social Media Links #
+######################
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/rsturla"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/robert-sturla/"
+
+
+#######################
+# Theme Configuration #
+#######################
+[params]
+  goToTop = true
+  mainSections = ['blog']
