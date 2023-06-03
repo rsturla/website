@@ -4,6 +4,7 @@ languageCode = 'en-gb'
 defaultContentLanguage = "en-gb"
 theme = "rsturla"
 enableRobotsTXT = true
+googleAnalytics = 'G-2TB8CV0J6V'
 
 [params.author]
   name = "Robert Sturla"
