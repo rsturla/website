@@ -5,6 +5,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Deploy every month at 00:00 UTC to update the site's copyright notice
+  schedule:
+    - cron: '0 0 1 * *'
 
 permissions:
   contents: read
@@ -35,7 +38,7 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v3
-  
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
