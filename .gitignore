@@ -1,0 +1,8 @@
+# IDEs
+.vscode/
+.idea/
+
+# Build outputs
+public/
+resources/
+.hugo_build.lock

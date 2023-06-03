@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{/*  If .Title is the same as .Site.Title, then only show .Site.Title  */}}
+{{- $page_title := "" -}}
+{{- if eq .Title .Site.Title -}}
+  {{- $page_title = .Site.Title -}}
+{{- else }}
+  {{- $page_title = printf "%s - %s" .Title .Site.Title -}}
+{{- end }}
+
+<title itemprop="name">{{ $page_title }}</title>
+<meta property="og:title" content="{{ $page_title }}" />
+<meta name="twitter:title" content="{{ $page_title }}" />
+<meta itemprop="name" content="{{ $page_title }}" />
+<meta name="application-name" content="{{ $page_title }}" />
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
+{{/*  Define empty variable description  */}}
+{{- $description := "" -}}
+
+{{/*  If description is defined in front matter, use it  */}}
+{{- if .Params.description -}}
+  {{- $description = trim .Params.description "\n" -}}
+{{/*  If description is not defined in front matter, use site description  */}}
+{{- else if .Site.Params.description -}}
+  {{- $description = trim .Site.Params.description "\n" -}}
+{{- end -}}
+
+<meta name="description" content="{{ $description }}">
+<meta itemprop="description" content="{{ $description }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta name="language" content="{{ .Site.LanguageCode }}" />
+{{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+{{ end }}
+
+{{ with .Params.image }}
+  <meta itemprop="image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image:src" content="{{ . | absURL }}" />
+{{ else }}
+  <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" />
+{{ end }}
