@@ -14,6 +14,7 @@ jobs:
     env:
       LHCLI_VERSION: 0.12.0
       HUGO_VERSION: 0.112.7
+      BASE_URL: http://localhost:1313
     steps:
       - name: Install Hugo CLI
         run: |
@@ -34,7 +35,9 @@ jobs:
           HUGO_ENVIRONMENT: development
           HUGO_ENV: development
         run: |
-          hugo --minify
+          hugo \
+            --minify \
+            --baseURL ${{ env.BASE_URL }}
 
       - name: Install Google Lighthouse CI
         env:
@@ -42,6 +45,6 @@ jobs:
         run: npm install -g @lhci/cli@${LHCLI_VERSION}
 
       - name: Run Lighthouse CI
-        run: lhci autorun
+        run: lhci autorun --url=${{ env.BASE_URL }}
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
