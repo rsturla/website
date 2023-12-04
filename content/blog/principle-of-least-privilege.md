@@ -21,9 +21,11 @@ Imagine you are a bank manager, and you have a safe in your office that contains
 
 ## Importance of the Principle of Least Privilege
 
-The principle of least privilege is important because it reduces the risk of a security breach. If a user has more privileges than required, they could accidentally or intentionally cause a security breach.  For example, a disgruntled employee could delete all of the data in your database, or an external attacker could hold your data for ransom.
+Ensuring you are following the principle of least privilege is important because it reduces the risk of a security breach. If a user has more privileges than required, they could accidentally or intentionally cause a security breach.
 
 The principle of least privilege can also help you comply with regulations such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). These regulations require you to protect your data and only give access to those who need it.
+
+There are many stories of the intern who nuked the production database or the company who were held to ransom because they didn't follow basic security practices. If these companies had followed the principle of least privilege, these incidents could have been avoided as the intern would not have had access to the production database, and the ransomware would have been contained to a smaller area of the network.
 
 
 ## Edward Snowden
@@ -57,7 +59,7 @@ Implementing least privilege requires you to understand the permissions required
 
 ### Infrastructure
 
-Implementing least privilege in your infrastructure works in a similar way to applications. A malicious actor could exploit a vulnerability in your infrastructure to gain access to your network, so it's essential to ensure that your infrastructure is not over-privileged.  This can be achieved by following these three steps:
+Least privilege in your infrastructure works in a similar way to applications. A malicious actor could exploit a vulnerability in your infrastructure to gain access to your network, so it's essential to ensure that your infrastructure is not over-privileged.  This can be achieved by following these three steps:
 
 1. **Network Segmentation**
 
