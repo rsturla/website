@@ -30,7 +30,7 @@ Adhering to the principle of least privilege is often a requirement for complian
 There are many stories of the intern who nuked the production database or the company who had to shut down after being held to ransom because they didn't follow basic security practices. If these companies had followed the principle of least privilege, these incidents could have been avoided as the intern should not have had access to the production database, and the ransomware would have been contained to a smaller area of the network.
 
 
-## Edward Snowden
+## Edward Snowden and the NSA
 
 In 2013, Edward Snowden, a former CIA employee, leaked classified information from the National Security Agency (NSA) to the press. This information revealed the NSA's global surveillance program, which was collecting data from millions of people worldwide. Snowden did not need to have access to this information to perform his job, but he was able to access and export this information because he had far more privileges than required.
 
