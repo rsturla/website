@@ -9,7 +9,7 @@ date: 2023-12-04
 
 Understanding the principle of least privilege is essential for any IT professional. It is a fundamental security concept that can be applied to applications and infrastructure with an aim to improve your security posture and reduce the risk of a security breach.  It can be difficult to strike a balance between protecting your data without causing friction for users but understanding the principle of least privilege can help you achieve this.
 
-In this blog, I will be discussing the principle of least privilege and how it can be applied to applications and infrastructure to improve your security posture and reduce the risk of a security breach.
+In this blog, I will be discussing the principle of least privilege and how it can be applied to applications and infrastructure to help secure your products and services.
 
 
 ## Understanding the Principle of Least Privilege
