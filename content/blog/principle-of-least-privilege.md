@@ -7,25 +7,27 @@ date: 2023-12-04
 
 ## Introduction
 
-Understanding the principle of least privilege is essential for any IT professional. It is a fundamental security concept that can be applied to applications and infrastructure with an aim to improve your security posture and reduce the risk of a security breach.  It can be difficult to strike a balance between protecting your data without causing friction for users but understanding the principle of least privilege can help you achieve this.
+Understanding the principle of least privilege is essential for any IT professional. It is a fundamental security concept that can be applied to applications and infrastructure with an aim to improve your security posture and reduce the risk of a security breach.  It can be difficult to strike a balance between protecting your data without causing friction for users, but understanding the principle of least privilege can help you achieve this.
 
 In this blog, I will be discussing the principle of least privilege and how it can be applied to applications and infrastructure to help secure your products and services.
 
 
 ## Understanding the Principle of Least Privilege
 
-The Principle of least privilege is a security concept that aims to reduce the risk of a security breach by limiting user permissions to the bare minimum required to perform their job. This can also be referred to as the principle of least authority or the principle of minimal privilege, and acts as a safeguard against unauthorized access and misuse of privileges.
+The Principle of least privilege is a security concept that aims to reduce the risk of a security breach by limiting user permissions to the bare minimum required to perform their job. This can also be referred to as the principle of least authority or the principle of minimal privilege, and acts as a safeguard to protect against unauthorized access and misuse of privileges.
 
 Imagine you are a bank manager, and you have a safe in your office that contains all of the money for the bank. You would not give the key to this safe to every employee in the bank. Instead, you would only give the key to the safe to a select few people who need access to it. This is an example of the principle of least privilege in action.
 
 
 ## Importance of the Principle of Least Privilege
 
-Ensuring you are following the principle of least privilege is important because it reduces the risk of a security breach. If a user has more privileges than required, they could accidentally or intentionally cause a security breach.
+Ensuring your organization follows the principle of least privilege is essential for protecting your data and reducing the risk of a security breach.  This will not prevent a security breach from happening, but will help limit the blast radius and potential damage caused by a security breach.
 
-The principle of least privilege can also help you comply with regulations such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). These regulations require you to protect your data and only give access to those who need it.
+One of the primary benefits of least privilege is it's ability to minimise the attack surface. By restrictign access rights, organizations reduce the potential entry points that a malicious actor could exploit. And in the event of a compromise, the attacker will be contained to a smaller area of the network, meaning they will have less access to other systems and data.
 
-There are many stories of the intern who nuked the production database or the company who were held to ransom because they didn't follow basic security practices. If these companies had followed the principle of least privilege, these incidents could have been avoided as the intern would not have had access to the production database, and the ransomware would have been contained to a smaller area of the network.
+Adhering to the principle of least privilege is often a requirement for compliance with regulations such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). These regulations require you to protect your data and only give access to those who need it. Failure to comply with these regulations can result in significant fines and reputational damage.
+
+There are many stories of the intern who nuked the production database or the company who had to shut down after being held to ransom because they didn't follow basic security practices. If these companies had followed the principle of least privilege, these incidents could have been avoided as the intern should not have had access to the production database, and the ransomware would have been contained to a smaller area of the network.
 
 
 ## Edward Snowden
