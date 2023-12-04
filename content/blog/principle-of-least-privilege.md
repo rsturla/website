@@ -23,8 +23,6 @@ Imagine you are a bank manager, and you have a safe in your office that contains
 
 The principle of least privilege is important because it reduces the risk of a security breach. If a user has more privileges than required, they could accidentally or intentionally cause a security breach.  For example, a disgruntled employee could delete all of the data in your database, or an external attacker could hold your data for ransom.
 
-A security breach could result in the loss of sensitive data, financial loss, or reputational damage. These can be caused by a disgruntled employee, an external attacker or a simple mistake.
-
 The principle of least privilege can also help you comply with regulations such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). These regulations require you to protect your data and only give access to those who need it.
 
 
