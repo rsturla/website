@@ -17,7 +17,7 @@ As an engineer, I have actively contributed to the growth and success of various
 
 ### Timeline
 
-- Dec 2023 - Present: Senior DevOps Engineer at IMMO Investment Technologies
+- Nov 2023 - Present: Senior DevOps Engineer at IMMO Investment Technologies
 - Aug 2022 - Nov 2023: DevOps Engineer at IMMO Investment Technologies
 - Dec 2021 - Aug 2022: Junior DevOps Engineer at IMMO Investment Technologies
 - Jan 2021 - Dec 2021: Application Developer at BAE Systems (Contractor)
