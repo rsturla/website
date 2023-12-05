@@ -32,7 +32,7 @@ There are many stories of the intern who nuked the production database or the co
 
 ## Edward Snowden and the NSA
 
-In 2013, Edward Snowden, a former CIA employee, leaked classified information from the National Security Agency (NSA) to the press. This information revealed the NSA's global surveillance program, which was collecting data from millions of people worldwide. Snowden did not need to have access to this information to perform his job, but he was able to access and export this information because he had far more privileges than required.
+In 2013, Edward Snowden, a former CIA employee, leaked classified information from the National Security Agency (NSA) to the press. This data revealed the NSA's global surveillance program, which was collecting data from millions of people worldwide. Snowden did not need to have access to these resources to perform his job, but he was able to access, export and leak this information because he had far more privileges than required.
 
 In this case, the NSA failed to implement the principle of least privilege, which contributed towards a significant security breach of classified information and reputational damage. Organizations should learn from this, especially those who handle sensitive data.
 
