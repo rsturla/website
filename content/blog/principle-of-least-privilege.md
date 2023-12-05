@@ -21,9 +21,9 @@ Imagine you are a bank manager, and you have a safe in your office that contains
 
 ## Importance of the Principle of Least Privilege
 
-Ensuring your organization follows the principle of least privilege is essential for protecting your data and reducing the risk of a security breach. This will not prevent a security breach from happening, but will help limit the blast radius and potential damage caused by a security breach.
+Ensuring your organization follows the principle of least privilege is essential for protecting your data and reducing the risk of a security breach. This will not prevent a security breach from happening, but will help limit the blast radius and potential damage caused by an incident.
 
-One of the primary benefits of least privilege is it's ability to minimise the attack surface. By restrictign access rights, organizations reduce the potential entry points that a malicious actor could exploit. And in the event of a compromise, the attacker will be contained to a smaller area of the network, meaning they will have less access to other systems and data.
+One of the primary benefits of least privilege is it's ability to minimise the attack surface. By restricting access rights, organizations reduce the potential entry points that a malicious actor could exploit, and in the event of a compromise, the attacker will be contained to a smaller area of the network, meaning they will have less access to other systems and data.
 
 Adhering to the principle of least privilege is often a requirement for compliance with regulations such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). These regulations require you to protect your data and only give access to those who need it. Failure to comply with these regulations can result in significant fines and reputational damage.
 
@@ -44,11 +44,13 @@ Now that we understand what the principle of least privilege is and why it is im
 
 ### Applications
 
-Implementing least privilege requires you to understand the permissions required by each user and only grant them the permissions they need to perform their job. This can be achieved by following these three steps:
+Implementing least privilege requires you to understand the permissions required by each user and only grant them the permissions they need to perform their job.
+
+This can be achieved by following these three steps:
 
 1. **User Roles and Permissions**
  
-    Define distinct roles within your application, each with specific permissions based on their day-to-day tasks and responsibilities for their role. Users should only be assigned the role that aligns with their job function. For example, a customer service representative shouldn't have the same level of access as a system administrator.
+    Define distinct roles within your application, each with specific permissions based on the users' day-to-day tasks and responsibilities. Users should only be assigned the role that aligns with their job function. For example, a customer service representative shouldn't have the same level of access as a system administrator.
 
 2. **Regular Audits**
   
