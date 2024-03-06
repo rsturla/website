@@ -7,7 +7,7 @@ draft: false
 
 ## Introduction
 
-Hello there! My name is Robert, and I am a DevOps Engineer specializing in Cloud and Cyber Security. With a passion for building secure and scalable cloud infrastructures, I have been working in the field for the past three years. During this time, I have gained valuable experience at renowned companies like BAE Systems and IMMO.
+Hello there! My name is Robert, and I am a Platform Engineer specializing in Cloud and Cyber Security. With a passion for building secure and scalable cloud infrastructures, I have been working in the field for the past three years. During this time, I have gained valuable experience at renowned companies like BAE Systems and IMMO.
 
 
 ## Background
@@ -17,7 +17,7 @@ As an engineer, I have actively contributed to the growth and success of various
 
 ### Timeline
 
-- Nov 2023 - Present: Senior DevOps Engineer at IMMO Investment Technologies
+- Nov 2023 - Present: Senior Platform Engineer at IMMO Investment Technologies
 - Aug 2022 - Nov 2023: DevOps Engineer at IMMO Investment Technologies
 - Dec 2021 - Aug 2022: Junior DevOps Engineer at IMMO Investment Technologies
 - Jan 2021 - Dec 2021: Application Developer at BAE Systems (Contractor)
