@@ -1,0 +1,21 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+
+      - name: Install devbox
+        uses: jetpack-io/devbox-install-action@4a7f1d5332cc72057d5e8080edebfcdf652e642e # v0.8.0
+        with:
+          enable-cache: true
+
+      - name: Build
+        run: devbox run -- hugo
