@@ -1,0 +1,10 @@
+{
+  "packages": ["hugo@0.123.6"],
+  "shell": {
+    "scripts": {
+      "dev": [
+        "hugo server"
+      ]
+    }
+  }
+}
