@@ -1,6 +1,7 @@
-# IDEs
+# Development Tools
 .vscode/
 .idea/
+devbox.lock
 
 # Build outputs
 public/
