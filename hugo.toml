@@ -2,14 +2,18 @@ baseURL = 'https://robert.sturla.tech/'
 title = 'Robert Sturla'
 languageCode = 'en-gb'
 defaultContentLanguage = "en-gb"
-theme = "rsturla"
 enableRobotsTXT = true
 googleAnalytics = 'G-2TB8CV0J6V'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
 
 [params.author]
   name = "Robert Sturla"
   avatar = "img/work-gopher.png"
-  description = "A Platform Engineer passionate about Cloud and Cyber Security."
+  description = "A Security Engineer with a passion for Cloud, DevOps, and Automation"
 
 
 ######################
@@ -56,3 +60,40 @@ url = "https://www.linkedin.com/in/robert-sturla/"
   goToTop = true
   mainSections = ['blog']
   description = "Robert Sturla's personal website and blog"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      inline = false
+      keepCSS2 = true
+      precision = 0
+    [minify.tdewolff.html]
+      keepComments = false
+      keepConditionalComments = false
+      keepDefaultAttrVals = true
+      keepDocumentTags = true
+      keepEndTags = true
+      keepQuotes = false
+      keepSpecialComments = true
+      keepWhitespace = false
+      templateDelims = ['', '']
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision = 0
+      version = 2022
+    [minify.tdewolff.json]
+      keepNumbers = false
+      precision = 0
+    [minify.tdewolff.svg]
+      inline = false
+      keepComments = false
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false

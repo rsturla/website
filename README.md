@@ -1,6 +1,6 @@
 # Website
 
-This is the source code for my personal website. It is built using [Hugo](https://gohugo.io/) and a custom theme.
+This is the source code for my personal website. It is built using [Hugo](https://gohugo.io/) and a slightly customized [theme](https://github.com/hugo-sid/hugo-blog-awesome).
 
 
 ## Development
