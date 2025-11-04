@@ -1,5 +1,5 @@
 {
-  "packages": ["hugo@0.123.6"],
+  "packages": ["hugo@0.152.2"],
   "shell": {
     "scripts": {
       "dev": [
